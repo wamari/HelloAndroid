@@ -8,6 +8,7 @@
 
     <ImageView
         android:id="@+id/imageView"
+        android:layout_alignParentLeft="true"
         android:contentDescription="Udacity Image"
         android:layout_width="wrap_content"
         android:layout_height="300dp"
@@ -22,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView"
+        android:textColor="@color/colorPrimary"
         android:textAppearance="?android:textAppearanceLarge"
         android:text="Udacity" />
 
