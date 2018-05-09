@@ -8,62 +8,62 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_alignParentLeft="true"
-        android:contentDescription="Udacity Image"
         android:layout_width="wrap_content"
         android:layout_height="300dp"
-        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:contentDescription="Udacity Image"
+        android:scaleType="centerCrop"
         app:srcCompat="@drawable/udacity" />
 
     <TextView
         android:id="@+id/companyName"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView"
-        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Udacity"
         android:textAppearance="?android:textAppearanceLarge"
-        android:text="Udacity" />
+        android:textColor="@color/colorPrimary" />
 
     <TextView
         android:id="@+id/companyStreet"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/companyName"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:text="2465 Latham St" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="2465 Latham St"
+        android:textAppearance="?android:textAppearanceMedium" />
 
     <TextView
         android:id="@+id/companyAddress"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/companyStreet"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:text="Mountain View, CA 94043" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Mountain View, CA 94043"
+        android:textAppearance="?android:textAppearanceMedium" />
 
     <TextView
         android:id="@+id/companyTel"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/companyAddress"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:text="650-555-5555" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="650-555-5555"
+        android:textAppearance="?android:textAppearanceMedium" />
 
     <TextView
         android:id="@+id/companyWeb"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/companyTel"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:text="www.udacity.com" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="www.udacity.com"
+        android:textAppearance="?android:textAppearanceMedium" />
 </RelativeLayout>
